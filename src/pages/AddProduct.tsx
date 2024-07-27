@@ -130,6 +130,7 @@ const AddProduct = () => {
         <button
           type="submit"
           className="w-full p-2 bg-primaryColor text-white font-semibold text-lg rounded-md flex items-center justify-center"
+          disabled={loading}
         >
           {loading ? (
             <ImSpinner2 className="animate-spin" size={25} />
